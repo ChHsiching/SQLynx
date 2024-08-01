@@ -1,0 +1,180 @@
+2024-08-01 18:47:37.560 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 446492 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 18:47:37.560 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 18:47:37.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 18:47:37.998 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 18:47:37.998 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 18:47:37.998 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 18:47:38.019 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 18:47:38.019 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 438 ms
+2024-08-01 18:47:38.419 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 18:47:38.488 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 18:47:38.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 18:47:38.500 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.134 seconds (JVM running for 1.343)
+2024-08-01 18:47:38.501 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 18:47:38.601 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 18:47:38.608 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 18:48:03.011 [http-nio-18888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 18:48:03.011 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-01 18:48:03.012 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-01 18:48:11.366 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 18:48:11.367 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 18:48:11.368 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 19:25:50.831 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 451140 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 19:25:50.832 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 19:25:51.233 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 19:25:51.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:25:51.236 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 19:25:51.236 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 19:25:51.257 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 19:25:51.258 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 409 ms
+2024-08-01 19:25:51.646 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 19:25:51.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:25:51.723 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 19:25:51.729 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.084 seconds (JVM running for 1.205)
+2024-08-01 19:25:51.730 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 19:25:51.824 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 19:25:51.832 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 19:25:56.551 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 19:25:56.552 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 19:25:56.554 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 19:25:56.832 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 451301 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 19:25:56.832 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 19:25:57.241 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 19:25:57.245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:25:57.245 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 19:25:57.245 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 19:25:57.266 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 19:25:57.267 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 417 ms
+2024-08-01 19:25:57.663 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 19:25:57.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:25:57.742 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 19:25:57.748 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.089 seconds (JVM running for 1.203)
+2024-08-01 19:25:57.749 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 19:25:57.838 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 19:25:57.845 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 19:25:59.107 [http-nio-18888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 19:25:59.107 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-01 19:25:59.108 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-01 19:26:16.400 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 19:26:16.401 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 19:26:16.403 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 19:26:24.675 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 451660 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 19:26:24.675 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 19:26:25.089 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 19:26:25.092 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:26:25.092 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 19:26:25.092 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 19:26:25.114 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 19:26:25.114 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 419 ms
+2024-08-01 19:26:25.500 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 19:26:25.574 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:26:25.581 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 19:26:25.587 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.091 seconds (JVM running for 1.206)
+2024-08-01 19:26:25.588 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 19:26:25.684 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 19:26:25.691 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 19:26:26.525 [http-nio-18888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 19:26:26.525 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-01 19:26:26.525 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-01 19:26:29.936 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 19:26:29.937 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 19:26:29.938 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 19:27:59.312 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 452055 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 19:27:59.313 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 19:27:59.704 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 19:27:59.707 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:27:59.707 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 19:27:59.707 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 19:27:59.729 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 19:27:59.729 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 398 ms
+2024-08-01 19:28:00.095 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 19:28:00.162 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:28:00.169 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 19:28:00.175 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.042 seconds (JVM running for 1.159)
+2024-08-01 19:28:00.176 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 19:28:00.270 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 19:28:00.278 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 19:28:05.877 [http-nio-18888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 19:28:05.878 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-01 19:28:05.878 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-01 19:28:09.253 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 19:28:09.254 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 19:28:09.255 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 19:32:32.831 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 452800 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 19:32:32.832 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 19:32:33.231 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 19:32:33.234 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:32:33.234 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 19:32:33.234 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 19:32:33.256 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 19:32:33.256 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 407 ms
+2024-08-01 19:32:33.652 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 19:32:33.731 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 19:32:33.738 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 19:32:33.744 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.091 seconds (JVM running for 1.205)
+2024-08-01 19:32:33.744 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 19:32:33.842 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 19:32:33.850 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 19:32:45.299 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 19:32:45.300 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 19:32:45.301 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 20:51:20.200 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 463807 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 20:51:20.200 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 20:51:20.596 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 20:51:20.600 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:51:20.600 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 20:51:20.600 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 20:51:20.621 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 20:51:20.622 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 404 ms
+2024-08-01 20:51:20.995 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 20:51:21.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:51:21.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 20:51:21.080 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.056 seconds (JVM running for 1.166)
+2024-08-01 20:51:21.080 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 20:51:21.176 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 20:51:21.183 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 20:51:22.396 [http-nio-18888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 20:51:22.396 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-01 20:51:22.397 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-01 20:51:29.413 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 20:51:29.414 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 20:51:29.415 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 20:55:00.691 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 464344 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 20:55:00.692 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 20:55:01.100 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 20:55:01.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:55:01.103 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 20:55:01.103 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 20:55:01.125 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 20:55:01.125 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 414 ms
+2024-08-01 20:55:01.501 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 20:55:01.575 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:55:01.582 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 20:55:01.588 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.084 seconds (JVM running for 1.201)
+2024-08-01 20:55:01.588 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 20:55:01.681 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 20:55:01.688 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 20:55:09.864 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 20:55:09.865 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 20:55:09.866 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-01 20:55:10.169 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 464639 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 20:55:10.169 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 20:55:10.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 20:55:10.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:55:10.593 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 20:55:10.593 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 20:55:10.613 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 20:55:10.613 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 423 ms
+2024-08-01 20:55:10.987 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 20:55:11.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:55:11.064 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 20:55:11.070 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.093 seconds (JVM running for 1.214)
+2024-08-01 20:55:11.071 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 20:55:11.162 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 20:55:11.169 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 20:55:41.887 [http-nio-18888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 20:55:41.888 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-01 20:55:41.888 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-01 20:56:13.077 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 20:56:13.078 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 20:56:13.079 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

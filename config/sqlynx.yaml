@@ -1,0 +1,65 @@
+# ======================== MaiCongSoftWare Configuration =========================
+#
+# NOTE: MAICONGSOFTWARE comes with reasonable defaults for most settings.
+#       Before you set out to tweak and tune the configuration, make sure you
+#       understand what are you trying to accomplish and the consequences.
+#
+# The primary way of configuring a node is via this file. This template lists
+# the most important settings you may want to configure for a production cluster.
+#
+# Please consult the documentation for further information on configuration options:
+# http://www.maicongs.com/#/listdocu
+#
+# -------------------------------------- Network --------------------------------------
+# set the server run port for backend and frontend, this is backend port
+# must
+server.port: 18888
+
+# ----------------------------------------- DB configuration ----------------------------------------
+master.datasource.initial-size: 10
+master.datasource.max-active: 100
+master.datasource.min-idle: 10
+# set the sqlite local path （have default if not set）
+#master.datasource.url: jdbc:sqlite:xxx/sqlite.db
+master.datasource.url:
+
+# ---------------------------------------- LOG ----------------------------------------
+# log level, you can set info, error, warn, debug
+logging.level.com.mc.dao: info
+
+# --------------------------------------- MYBATIS ------------------------------------
+mybatis.check-config-location: true
+mybatis.config-location: classpath:mybatis/mybatis-config.xml
+mybatis.mapper-locations: classpath:mybatis/mapper/*.xml
+mybatis.type-aliases-package: com.mc.entity
+
+# -------------------------------------- Network --------------------------------------
+server.tomcat.accept-count: 800
+server.tomcat.max-connections: 20000
+server.tomcat.max-max-threads: 1000
+server.tomcat.uri-encoding: UTF-8
+
+# -------------------------------------- SPRING ---------------------------------------
+spring.http.enncoding.charset: UTF-8
+spring.http.enncoding.enabled: true
+spring.http.enncoding.force: true
+spring.messages.encoding: UTF-8
+spring.mvc.async.request-timeout: 180000
+spring.mvc.pathmatch.matching-strategy: ant_path_matcher
+spring.messages.basename: i18n/messages
+
+# -------------------------------------- multipart ---------------------------------------
+# release for set big files, default is 200GB
+spring.servlet.multipart.max-file-size: 200GB
+spring.servlet.multipart.max-request-size: 200GB
+
+# -------------------------------------- for product version -----------------------------
+# release for 2.1.2 add for enterprise set, value has : person, enterprise, premium
+# @2.1.2
+product.version: person
+
+# -------------------------------------- for relational database -----------------------------
+# release for 3.4.0 add for enterprise set
+# @3.4.0
+master.datasource.username: root
+master.datasource.password: 123456

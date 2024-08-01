@@ -1,0 +1,38 @@
+[0.000s][warning][gc] -Xloggc is deprecated. Will use -Xlog:gc:./log/sqlynx-ide-gc.log instead.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/sqlynx_linux_nojdk_3.5.0/main_application/dep_lib/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/sqlynx_linux_nojdk_3.5.0/main_application/dep_lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+20:55:09.931 [main] INFO com.mc.MainApplication - SQLynx SQL tool start...
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.6.7)[0;39m
+
+2024-08-01 20:55:10.169 [main] INFO  com.mc.MainApplication - Starting MainApplication v3.5.0-release using Java 22.0.2 on hsiarch with PID 464639 (/opt/sqlynx_linux_nojdk_3.5.0/main_application/sqlynx-ide-3.5.0-release.jar started by root in /opt/sqlynx_linux_nojdk_3.5.0)
+2024-08-01 20:55:10.169 [main] INFO  com.mc.MainApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-01 20:55:10.441 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[org.spring.mc.dao.master]' package. Please check your configuration.
+2024-08-01 20:55:10.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18888 (http)
+2024-08-01 20:55:10.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:55:10.593 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-01 20:55:10.593 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-08-01 20:55:10.613 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-01 20:55:10.613 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 423 ms
+2024-08-01 20:55:10.987 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2024-08-01 20:55:11.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18888"]
+2024-08-01 20:55:11.064 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18888 (http) with context path ''
+2024-08-01 20:55:11.070 [main] INFO  com.mc.MainApplication - Started MainApplication in 1.093 seconds (JVM running for 1.214)
+2024-08-01 20:55:11.071 [main] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> start
+2024-08-01 20:55:11.162 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-01 20:55:11.169 [main] INFO  com.mc.MainApplication - SQLynx started successfully.
+2024-08-01 20:55:41.887 [http-nio-18888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 20:55:41.888 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-01 20:55:41.888 [http-nio-18888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-01 20:56:13.077 [SpringApplicationShutdownHook] INFO  com.mc.spring.lifecycle.AppLifecycleListener - App Lifecycle -> destroy
+2024-08-01 20:56:13.078 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-01 20:56:13.079 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
