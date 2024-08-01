@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=3.5.0
+Terminal=false
+Type=Application
+Name=SQLynx IDE
+Categories=Development;Utility;
+Keywords=IDE;Development;Java;
+Exec=sh -c 'kitty --title sqlynx-startup -- sh -c "/opt/sqlynx_linux_nojdk_3.5.0/start_sqlynx.sh; exec bash"'
+Icon=/opt/sqlynx_linux_nojdk_3.5.0/sqlynx-icon.png
