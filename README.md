@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Desktop And Web SQL Tool.</h4>
+<h4 align="center">Desktop And Web SQL Tool. Both web and desktop access. Support popular SQL databases like mysql, mariadb, postgresql, sqlite and more. </h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
@@ -80,10 +80,3 @@ $ sudo sh sqlynx-ide.sh start
 ## Download
 
 You can [download](https://www.sqlynx.com/download/) the latest installable version of SQLynx for Windows, macOS and Linux.
-
----
-
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
-
