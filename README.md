@@ -31,7 +31,10 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](./sql-query-show.png)
+![screenshot](./table-management-show.png)
+![screenshot](./data-export-import-show.png)
+![screenshot](./sample-data-generation-show.png)
 
 ## Key Features
 * SQL Query
