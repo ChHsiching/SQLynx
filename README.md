@@ -23,7 +23,7 @@
       <img src="https://img.shields.io/badge/service@sqlynx.com-%E2%98%BC-1EAEDB.svg">
   </a>
   <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/docs-50%25-brightgreen">
+    <img src="https://img.shields.io/badge/docs-80%25-brightgreen">
   </a>
 </p>
 
@@ -40,29 +40,34 @@
 ![screenshot](./images/sample-data-generation-show.png)
 
 ## Key Features
-* SQL Query
-* Tables Management
-* Data Export & Import
-* Sample Data Generation
+- SQL Query
+- Tables Management
+- Data Export & Import
+- Sample Data Generation
 
 ## How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [JDK 1.8+](https://jdk.java.net/java-se-ri/8-MR6) installed on your computer. From your command line:
 
+### Manual Execution
+
+To manually set up and run the application, follow these steps:
+
 ```bash
-# Clone this repository
+# Clone the Repository:
 $ git clone https://github.com/ChHsiching/SQLynx.git
 
-# Go into the repository
+# Navigate to the Repository:
 $ cd SQLynx
 
-# [Optional] Change files owner and group
+# [Optional] Change File Ownership:
+# Replace `[OWNER]` with your user and `[GROUP]` with your group if necessary.
 $ chown [OWNER][:GROUP] *
 
-# Assign executable permissions to all shell scripts
-$ chmod 755 *.sh
+# Assign Executable Permissions:
+$ find . -type f -name "*.sh" -exec chmod 755 {} +
 
-# View the commands provided by the app
+# View Available Commands:
 $ ./sqlynx-ide.sh
 
 # You will see:
@@ -76,8 +81,44 @@ $ ./sqlynx-ide.sh
 # **       sh  sqlynx-ide.sh restart             **
 # *************************************************
 
-# Run the app
+# Run the app:
 $ sudo sh sqlynx-ide.sh start
+
+# Stop the app:
+$ sudo sh sqlynx-ide.sh stop
+```
+
+### Automated Deployment
+
+For automated deployment, use the provided `deploy.sh` script. This script will handle the setup and configuration automatically.
+
+```bash
+# Clone the repository
+$ git clone https://github.com/ChHsiching/SQLynx.git
+   
+# Navigate to the repository
+$ cd SQLynx
+
+# Assign Executable Permissions:
+$ chmod 755 deploy.sh
+
+# Run the deployment script
+$ ./deploy.sh
+```
+The `deploy.sh` script will:
+- Copy necessary files to the installation directory.
+- Set up executable permissions for all shell scripts.
+- Register the application with the system (e.g., create symlinks, install desktop entries).
+
+Post-Deployment:
+After running the `deploy.sh` script, you can start and stop the application using the `sqlynx` command:
+
+```bash
+# Start the application
+$ sqlynx start
+
+# Stop the application
+$ sqlynx stop
 ```
 
 > **Note**
