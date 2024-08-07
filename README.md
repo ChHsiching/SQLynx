@@ -34,6 +34,9 @@
   <a href="#license">License</a>
 </p>
 
+> **Attention**
+> This release provides installation and setup scripts for SQLynx, a sophisticated SQL query optimization and analysis tool developed by [SQLynx Inc.](https://www.sqlynx.com). The original SQLynx software is provided by SQLynx Inc., and these scripts simplify the environment configuration and installation process for SQLynx.
+
 ![screenshot](./images/sql-query-show.png)
 ![screenshot](./images/table-management-show.png)
 ![screenshot](./images/data-export-import-show.png)
