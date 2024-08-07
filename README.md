@@ -100,7 +100,7 @@ $ git clone https://github.com/ChHsiching/SQLynx.git
 $ cd SQLynx
 
 # Assign Executable Permissions:
-$ chmod 755 deploy.sh
+find . -type f -name "*.sh" -exec chmod 755 {} +
 
 # Run the deployment script
 $ ./deploy.sh
@@ -114,11 +114,20 @@ Post-Deployment:
 After running the `deploy.sh` script, you can start and stop the application using the `sqlynx` command:
 
 ```bash
-# Start the application
+# Start the app
 $ sqlynx start
 
-# Stop the application
+# Restart the app
+$ sqlynx restart
+
+# Stop the app
 $ sqlynx stop
+
+# check the version
+$ sqlynx version
+
+# view the usage information
+$ sqlynx help
 ```
 
 > **Note**
