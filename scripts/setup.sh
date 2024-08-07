@@ -35,7 +35,7 @@ echo "1. The SQLynx application has been installed to $INSTALL_DIR."
 echo "2. You can start SQLynx using the command: sqlynx start"
 echo "3. To stop SQLynx, use: sqlynx stop"
 echo "4. A desktop entry has been installed, and you can find SQLynx in your application menu."
-echo "5. Please run 'source ~/.bashrc' or restart your terminal to apply PATH changes."
+echo "5. Please restart your terminal to apply PATH changes."
 
 # End of script
 echo "Deployment script finished successfully."
