@@ -6,21 +6,24 @@
   <br>
 </h1>
 
-<h4 align="center">Desktop And Web SQL Tool. Both web and desktop access. Support popular SQL databases like mysql, mariadb, postgresql, sqlite and more. </h4>
+<h3 align="center">Desktop And Web SQL Tool. Both web and desktop access. Support popular SQL databases like mysql, mariadb, postgresql, sqlite and more. </h3>
 
 <p align="center">
+  <!-- <a href="https://badge.fury.io/js/electron-markdownify">
+    <img src="https://img.shields.io/github/release/owner/repo.svg"
+         alt="Version">
+  </a> -->
   <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
+    <img src="https://img.shields.io/badge/version-3.5.0-red"
+         alt="Version">
   <a href="https://jdk.java.net/java-se-ri/8-MR6">
     <img src="https://img.shields.io/badge/jdk-8+-blue">
   </a>
   <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+      <img src="https://img.shields.io/badge/service@sqlynx.com-%E2%98%BC-1EAEDB.svg">
   </a>
   <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+    <img src="https://img.shields.io/badge/docs-50%25-brightgreen">
   </a>
 </p>
 
@@ -31,10 +34,10 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](./sql-query-show.png)
-![screenshot](./table-management-show.png)
-![screenshot](./data-export-import-show.png)
-![screenshot](./sample-data-generation-show.png)
+![screenshot](./images/sql-query-show.png)
+![screenshot](./images/table-management-show.png)
+![screenshot](./images/data-export-import-show.png)
+![screenshot](./images/sample-data-generation-show.png)
 
 ## Key Features
 * SQL Query
