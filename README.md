@@ -18,7 +18,7 @@
   <a href="mailto:hsichingchang@gmail.com">
       <img src="https://img.shields.io/badge/service@sqlynx.com-%E2%98%BC-1EAEDB.svg">
   </a>
-  <a href="https://www.paypal.me/AmitMerchant">
+  <a href="https://github.com/ChHsiching/SQLynx">
     <img src="https://img.shields.io/badge/docs-100%25-brightgreen">
   </a>
 </p>
