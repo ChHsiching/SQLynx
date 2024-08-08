@@ -9,21 +9,17 @@
 <h3 align="center">Desktop And Web SQL Tool. Both web and desktop access. Support popular SQL databases like mysql, mariadb, postgresql, sqlite and more. </h3>
 
 <p align="center">
-  <!-- <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://img.shields.io/github/release/owner/repo.svg"
-         alt="Version">
-  </a> -->
-  <a href="https://badge.fury.io/js/electron-markdownify">
+  <a href="https://www.sqlynx.com/product/">
     <img src="https://img.shields.io/badge/version-3.5.0-red"
          alt="Version">
   <a href="https://jdk.java.net/java-se-ri/8-MR6">
     <img src="https://img.shields.io/badge/jdk-8+-blue">
   </a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+  <a href="mailto:hsichingchang@gmail.com">
       <img src="https://img.shields.io/badge/service@sqlynx.com-%E2%98%BC-1EAEDB.svg">
   </a>
   <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/docs-80%25-brightgreen">
+    <img src="https://img.shields.io/badge/docs-100%25-brightgreen">
   </a>
 </p>
 
