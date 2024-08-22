@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://www.sqlynx.com"><img src="./sqlynx-icon.svg" alt="SQLynx" width="200"></a>
+  <a href="https://www.sqlynx.com"><img src="./images/sqlynx-icon.svg" alt="SQLynx" width="200"></a>
   <br>
   SQLynx Pro
   <br>
