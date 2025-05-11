@@ -83,6 +83,8 @@ $ ./sqlynx-ide.sh
 # Run the app:
 $ sudo sh sqlynx-ide.sh start
 
+# Access the local port 18888 in the browser
+
 # Stop the app:
 $ sudo sh sqlynx-ide.sh stop
 ```
